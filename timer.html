@@ -77,7 +77,7 @@
 
                 <div class="section">
                     <div class="text">
-                        end date:
+                        date started:
                     </div>
                 </div>
                 <div class="section" style="margin-bottom: 60px;">
@@ -103,7 +103,7 @@
 
         <script>
             // Set the date we're counting down to
-            var datetime = "Jan 01 2024 00:00:00"
+            var datetime = "Jan 01 2023 00:00:00"
             var countDownDate = new Date(datetime).getTime();
 
             document.getElementById("end-date").innerHTML = datetime
@@ -118,7 +118,7 @@
                 document.getElementById("current-date").innerHTML = currentDate
 
                 // Find the distance between now and the count down date
-                var distance = countDownDate - now;
+                var distance = now - countDownDate;
 
                 // Time calculations for days, hours, minutes and seconds
                 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
