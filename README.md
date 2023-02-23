@@ -1,5 +1,5 @@
-# countdown-timer-page
+# timer-page
 
-A simple counter counting down time.
+A simple counter counting up time.
 
- - [Preview timer](https://jakubgania.github.io/countdown-timer-page/timer)
+ - [Preview timer](https://ezboogie.github.io/timer.html)
